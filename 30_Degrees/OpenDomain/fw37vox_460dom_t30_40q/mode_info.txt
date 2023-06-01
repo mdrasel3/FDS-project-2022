@@ -1,0 +1,5 @@
+HRRPUA = 80
+Velocity = -0.49
+Domain = Open
+
+Should be run for longer seconds (it takes  4.08 seconds for the wind to reach the opposite wall)

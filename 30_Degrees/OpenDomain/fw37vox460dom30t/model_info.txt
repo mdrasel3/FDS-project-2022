@@ -1,0 +1,3 @@
+line burner angle = 30 (as opposed to 20 in other files)
+HRRPUA = 800
+Domain = Open
