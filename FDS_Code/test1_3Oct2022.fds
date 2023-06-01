@@ -1,0 +1,25 @@
+!!! This is a comment line
+&HEAD CHID='FireWhirl1', TITLE='FireWhirl1' /
+
+!!! The XB command defines the dimensions of the volume in meters, in the format of XB= x, x’, y, y’, z, z’
+!!! We can define like -L to +L or 0 to +2L.
+!!! IJK is the resolution, lets start with .1, so I=8.1/.1 ...
+!!! &MESH XB= 0, 8.1, 0, 1.7, 0, 3, IJK= 81, 17, 30 /
+!!! We take the center of burner as (0,0)
+&MESH XB= -1.8, 6.3, -0.85, 0.85, 0, 3, IJK= 81, 17, 30 /
+
+&TIME T_END=0. /
+
+&DUMP NFRAMES=20 /
+
+&REAC FUEL = 'N-HEPTANE'
+!!! burner size 1, 300cm X 5cm X 5cm 
+&OBST XB= -1.5, 1.5, -.25, .25, 0, 0.5, COLOR='RED', SURF_ID='fire1' /
+&SURF ID='fire1', HRRPUA=250 /
+
+!!! making the fan
+&HVAC TYPE_ID='FAN', ID='constant volume', VOLUME_FLOW=10.0/
+
+
+
+&TAIL /
