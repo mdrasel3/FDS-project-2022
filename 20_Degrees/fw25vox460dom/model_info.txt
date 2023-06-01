@@ -1,0 +1,6 @@
+voxel size = 3cm
+voxel count = 25
+domain = 460 cm (100 cm between sandbed and windwall)
+
+mesh cell size = 210k
+time = 30 sec

@@ -1,0 +1,2 @@
+velocity = 1 m/s (no justification)
+added slices on z-axis

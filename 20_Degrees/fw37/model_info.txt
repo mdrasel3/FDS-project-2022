@@ -1,0 +1,7 @@
+fw37
+
+voxel size = 2cm
+voxel count = 37 
+
+domain size = 680x170x200 (default size)
+mesh cell count = 462400
